@@ -1,0 +1,22 @@
+.custom__button {
+  padding: 9px 12px;
+  border: 1px solid rgba(193, 193, 193, 0.1);
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: #303c48;
+  color: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  transition: background-color 150ms, color 150ms;
+}
+
+.custom__button:hover {
+  background-color: #3e4955;
+}
+
+.custom__button:disabled {
+  pointer-events: none;
+  background-color: #848484;
+  color: #cac9c9;
+}

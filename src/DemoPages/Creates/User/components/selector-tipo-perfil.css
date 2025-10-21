@@ -1,0 +1,20 @@
+.wrapper__select {
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom__select {
+  padding: 9px 5px;
+  outline: none;
+  max-width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.custom__select:focus,
+.custom__select:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 calc(1px + 1px) rgba(48, 60, 72, 0.8);
+}

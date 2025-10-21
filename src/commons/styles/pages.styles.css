@@ -1,0 +1,83 @@
+.createIcon {
+	color: #303d48;
+}
+
+.createIcon:hover {
+	color: #7c7c7c;
+	cursor: pointer;
+}
+
+.createIconPlanVacio {
+	color: #c2c2c1;
+}
+
+.createIconPlanVacio:hover {
+	color: #7c7c7c;
+	cursor: pointer;
+}
+
+.button {
+	background-color: #353a40;
+	border-color: #353a40;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	padding: 0px 12px;
+	height: 36px;
+	margin-top: 21px;
+}
+
+.button:hover {
+	background-color: #27292c;
+}
+
+.inputBorder {
+	border: 1px solid #ced4da;
+	width: 65px;
+}
+
+.breadcrumb {
+	background-color: none;
+	background: none;
+	padding: 0px 1px;
+}
+
+.color-icono {
+	background-color: #3574e0;
+	box-shadow: 0 0 11px rgba(00, 00, 00, 0.9);
+}
+
+.color-icono:hover {
+	background-color: #55595c;
+}
+.scrollTop {
+	position: fixed;
+	bottom: 25px;
+	right: -15px;
+	border: none;
+	outline: none;
+	padding: 15px;
+	z-index: 1000;
+	cursor: pointer;
+	animation: fadeIn 0.3s;
+	color: #ffffff;
+}
+
+.headerTable {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	float: left;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 0.8rem;
+}
+
+.cellTable {
+	white-space: unset;
+	display: flex;
+	line-height: 1.3;
+}

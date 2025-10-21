@@ -1,0 +1,39 @@
+.button-eje-y {
+  background-color: #232529;
+  margin-block-end: .75rem;
+  margin-inline-start: 1.5rem;
+}
+
+.chevron-down-icon {
+  margin-inline-start: .75rem;
+  transition: transform 50ms ease-in-out;
+}
+
+.chevron-down-icon[data-open="true"] {
+  transform: rotate(180deg);
+}
+
+.wrapper-popover-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: .5rem;
+
+  &>*+* {
+    margin-top: 6px;
+  }
+
+  & small {
+    color: #b01b1b;
+  }
+
+  & section input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.434);
+  }
+
+  & button[type="submit"] {
+    margin-inline-start: 0;
+    margin-block: 1rem 0;
+  }
+}

@@ -1,0 +1,100 @@
+:root {
+  --border-color: #e2e8f0;
+  --background-color: white;
+  --muted-text-color: #64748b;
+  --hover-color: rgba(0, 0, 0, 0.05);
+  --selected-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor principal */
+.table-container {
+  height: 509px;
+  overflow: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+/* Contenedor de encabezados */
+.table-header-container {
+  overflow: hidden;
+}
+
+/* Contenedor del cuerpo con scroll */
+.table-body-container {
+  overflow: auto;
+  max-height: 400px;
+}
+
+/* Tabla base */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Encabezado */
+.custom-table-header {
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  z-index: 1;
+}
+
+/* Filas de encabezado */
+.custom-table-header-row {
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  transition: background-color 150ms ease;
+}
+
+/* Celdas de encabezado */
+.custom-table-header-cell {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* Contenedor para ordenamiento */
+.sort-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Cuerpo de la tabla */
+.custom-table-body tr:last-child {
+  border-bottom: none;
+}
+
+/* Filas de datos */
+.custom-table-row {
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  transition: background-color 150ms ease;
+}
+
+.custom-table-row:hover {
+  background-color: #f5f5f5;
+}
+
+/* Celdas de datos */
+.custom-table-cell {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.date-picker-widg {
+  padding: 5px;
+  height: 42px;
+}
+
+.rw-widget-input {
+  box-shadow: none;
+}
+
+.rw-widget-picker {
+  margin-block-start: 15px;
+}
+
+.breadcrumb {
+  background: none !important;
+  padding-inline: 0;
+}

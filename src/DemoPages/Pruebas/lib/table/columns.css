@@ -1,0 +1,18 @@
+.button-sort {
+	display: flex;
+	background: none;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	gap: 4px;
+}
+
+.button-sort:hover {
+	background: #eae8e8;
+}
+
+.arrow-icon {
+	align-self: center;
+	width: 18px;
+	height: 18px;
+}

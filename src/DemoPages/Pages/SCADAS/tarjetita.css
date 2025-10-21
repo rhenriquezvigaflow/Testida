@@ -1,0 +1,49 @@
+.colorTarjeta {
+	background-color: #ffffff;
+}
+
+.colorTarjeta:hover {
+	cursor: pointer;
+	box-shadow: 0 0 11px rgba(00, 00, 00, 0.6);
+}
+
+.colorTarjetaSelec {
+	background-color: #e1eafa;
+}
+
+.colorTarjetaSelec:hover {
+	cursor: pointer;
+	box-shadow: 0 0 11px rgba(00, 00, 00, 0.6);
+}
+
+.small-tarjeta {
+	height: 120px;
+}
+
+.medium-tarjeta {
+	height: 130px;
+}
+
+.large-tarjeta {
+	height: 140px;
+}
+
+.x-large-tarjeta {
+	height: 155px;
+}
+
+.small-tarjeta-title {
+	height: 20px;
+}
+
+.medium-tarjeta-title {
+	height: 30px;
+}
+
+.large-tarjeta-title {
+	height: 40px;
+}
+
+.x-large-tarjeta-title {
+	height: 50px;
+}

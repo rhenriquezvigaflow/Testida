@@ -1,0 +1,21 @@
+export const empresaRutaMap = {
+  1: "santa-teresa",
+  2: "santa-teresa",
+  3: "sealand",
+  8: "iloca",
+  13: "mowi",
+  14: "aqua-chile-ctp",
+  16: "aguas-andinas-sidp",
+  19: "nano-concon",
+  27: "aqua-chile-rh-orvf-8188",
+  28: "ko-andina-antofagasta",
+  29: "embonor-talca",
+  30: "aqua-chile-rh-orvf-8156",
+  31: "mission-etapa-1-ro-1",
+  60: "clariant",
+  80: "embonor-arica",
+  90: "agricola-rio-negro",
+  120: "mbr-enap",
+  150: "chanchamayo",
+  999: "demo-scada"
+};

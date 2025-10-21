@@ -1,0 +1,14 @@
+.custom__separator {
+  flex-shrink: 0;
+  background-color: hsl(0, 0%, 90%);
+}
+
+.horizontal {
+  height: 1px;
+  width: 100%;
+}
+
+.vertical {
+  width: 1px;
+  height: 100%;
+}

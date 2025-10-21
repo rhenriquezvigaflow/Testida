@@ -1,0 +1,33 @@
+.apexcharts-menu-item.exportSVG {
+	display: none;
+}
+
+.apexcharts-menu-item.exportCSV {
+	display: none;
+}
+
+.apexcharts-menu-item.exportPNG {
+	color: #ffffff;
+	font-size: 2px;
+}
+
+.apexcharts-menu-item.exportPNG:hover {
+	color: rgba(225, 234, 250, 0.9);
+}
+.apexcharts-menu-item.exportPNG:before {
+	color: #55595c;
+	content: "Descargar";
+	font-size: 0.88rem;
+}
+
+.apexcharts-menu-item.exportPNG:hover {
+	background-color: rgba(225, 234, 250, 0.9);
+}
+
+.apexcharts-zoomin-icon {
+	display: none;
+}
+
+.apexcharts-zoomout-icon {
+	display: none;
+}
